@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../Css/Registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="raleway-bold menu-principal">
+        <a href="../Html/Inicio.html" class="logo-container">
+            <img class="logo" src="../img/logo.jpg" alt="Logo">
+            <span class="logo-text">JabBurguer</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../Html/Menu.html">Menu</a></li>
+            <li><a href="../Html/PersonalizarH.html">Personalice su Hamburguesa</a></li>
+            <li><a href="">Ubíquenos</a></li>
+            <li><a href="../Html/Nosotros.html">Acerca de nosotros</a></li>
+        </ul>
+        <div class="menu-icons">
+            <a href="#" title="Iniciar sesión"><i class="fas fa-user"></i></a>
+            <a href="#" title="Carrito" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="contenido_central">
+        <div class="primer_bloque">
+        </div>
+        
+        <div class="segundo_bloque">
+            <h3>Iniciar Sesion / Registrarse</h3>
+            <form class="formulario_general">
+                <div class="elemento_formulario">
+                    <label for="">Nombre </label>
+                    <input class="barra_formulario" type="text" name="nombre">
+                </div>
+                <div class="elemento_formulario">
+                    <label for="">Apellido </label>
+                    <input class="barra_formulario" type="text" name="apellido">
+                </div>
+                <div class="elemento_formulario">
+                    <label for="">E-mail </label>
+                    <input class="barra_formulario" type="text" name="e-mail">
+                </div>
+                <div class="elemento_formulario">
+                    <label for="">Telefono </label>
+                    <input class="barra_formulario" type="text" name="telefono">
+                </div>
+                <div class="elemento_formulario">
+                    <label for="">Direccion </label>
+                    <input class="barra_formulario" type="text" name="direccion">
+                </div>
+            </form>
+            <input class="boton_registro" type="submit" value="REGISTRARSE" name="registrarse">
+            <p class="formulario_pregunta">¿Ya tienes una cuenta? <a href="../Html/Login.html">Inicia Sesion aqui</a></p>
+        </div>
+    </main>
+</body>
+</html>
